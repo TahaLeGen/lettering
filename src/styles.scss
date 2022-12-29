@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+* {
+    font-family : 'Quicksand', sans-serif;  
+}  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+div[id^=font-picker] .dropdown-button {
+    background: whitesmoke;
+    height: 100% !important;
+  }
+ .dropdown-button {
+    background: whitesmoke !important;
+    height: 100% !important;
+    border-bottom: 1px solid !important;
+    border-color: #9f9e9e !important; 
+  }
